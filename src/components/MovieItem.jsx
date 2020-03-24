@@ -38,7 +38,7 @@ export default class MovieItem extends Component {
         Add to list
       </button>
     );
-    let pathToImage = 'http://image.tmdb.org/t/p/w500';
+    let pathToImage = 'https://image.tmdb.org/t/p/w500';
     const poster = backdrop_path || poster_path || './no-poster.png';
     if (poster === './no-poster.png') {
       pathToImage = '';
